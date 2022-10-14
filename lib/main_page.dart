@@ -7,6 +7,8 @@ import 'package:flutter_tutorial/colorfull_button_tut.dart';
 import 'package:flutter_tutorial/custom_button_tut.dart';
 import 'package:flutter_tutorial/custom_cord_tut.dart';
 import 'package:flutter_tutorial/heroes_clipRect_tut.dart';
+import 'package:flutter_tutorial/hvscroll.dart';
+import 'package:flutter_tutorial/multiplication_tablecell.dart';
 import 'package:flutter_tutorial/responsive_item_tut.dart';
 import 'package:flutter_tutorial/responsive_tut.dart';
 import 'package:flutter_tutorial/second_page.dart';
@@ -84,6 +86,10 @@ class _MainPageState extends State<MainPage> {
             createBtn(context, "Tab Bar", TabBarTut()),
             SizedBox(height: 5),
             createBtn(context, "Colorfull Button", ColorfullBtnTut()),
+            SizedBox(height: 5),
+            createBtn(context, "Tabel", MultiplicationTable()),
+            SizedBox(height: 5),
+            createBtn(context, "HV scrollbar", TestPage()),
           ],
         ),
       ),
